@@ -1,0 +1,11 @@
+# Find numbers which re divisible by 7 and multiple of 5 between a given range
+start = int(input())
+end = int(input())
+cnt = start
+
+while cnt <= end:
+
+    if(cnt % 35 == 0):
+        print(cnt)
+
+    cnt += 1
